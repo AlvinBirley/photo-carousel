@@ -27,9 +27,10 @@ const imgVoltaire= document.createElement("img");
 imgVoltaire.src = voltaire;
 
 
-let picArray = {imgNewton, imgSwift, imgLocke, voltaire}
+let picArray = [imgNewton, imgSwift, imgLocke, imgVoltaire]
+
    
-frame.appendChild(imgVoltaire);
+frame.appendChild(picArray[3]);
 
 
 
