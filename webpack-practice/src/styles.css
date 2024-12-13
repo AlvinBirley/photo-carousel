@@ -1,6 +1,8 @@
 /* styles.css */
 body {
     background-color: rebeccapurple;
+    margin: 0;
+    padding: 0;
   }
   
   #showPic {
@@ -8,10 +10,57 @@ body {
     height:300px;
     width: 300px;
     overflow: hidden;
+    border-radius: 5px;
+  }
+
+  .picDiv {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 350px;
+    width: 100%;
+    background-color: brown;
   }
 
   #showPic img {
     width: 100%;
     height:100%;
     object-fit:cover;
+  }
+
+  .dots-and-arrows {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(12, 167, 1);
+    width: 100%;
+    height: 100px;
+  }
+
+  .arrow-left, .arrow-right {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 70px; 
+  padding: 10px;
+  border-radius: 5px;
+  color: #333;
+  }
+
+  .dots{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100%;
+    width: 100px;
+    background-color: coral;
+  }
+
+  .one, .two, .three, .four {
+    background-color: goldenrod;
+    height: 10px;
+    width: 10px;
+    border-radius: 100px;
+    border: #333 1px solid;
   }
