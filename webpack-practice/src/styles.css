@@ -1,0 +1,17 @@
+/* styles.css */
+body {
+    background-color: rebeccapurple;
+  }
+  
+  #showPic {
+    background-color: chartreuse;
+    height:300px;
+    width: 300px;
+    overflow: hidden;
+  }
+
+  #showPic img {
+    width: 100%;
+    height:100%;
+    object-fit:cover;
+  }
